@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <AutoCompleteTextView
+        android:id="@+id/autocomplete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </AutoCompleteTextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/autocomplete"
+        android:layout_marginTop="50dp"
+        android:text="温馨提示:"
+        android:textColor="#FFF"
+        android:textSize="20sp" >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/autocomplete"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="75dp"
+        android:text="请不要装疯迷窍乱输入,城市里仅有下拉列表里面有的数据才能进行查找，谢谢合作。！！"
+        android:textColor="#FFF"
+        android:textSize="15sp" >
+    </TextView>
+
+    <Button
+        android:id="@+id/button_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_check_select_style"
+    >
+    </Button>
+
+</RelativeLayout>
